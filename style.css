@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #107361, #1D7373, #0F5959, #0A3A40, #042326);
+
+    background-size: 500% 100%;
+
+    width: 100%;
+    display: flex;
+    animation: degrade-animation 5s infinite alternate;
+}
+@keyframes degrade-animation{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    padding: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.box{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    margin: 250px auto;
+    padding: 50px;
+    border-radius: 15px;
+    max-width: 250px;
+    min-width: 250px;
+    box-shadow: -5px 5px 7px black;
+}
+
+.login{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    box-shadow: -2px 2px 5px black;
+}
+#senha{
+    margin-bottom: 8px;
+}
+
+input:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+.botao{
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+    display: flex;
+    box-shadow: -2px 2px 5px black;
+}
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.lemb{
+    background-color: rgb(255, 255, 255);
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.junto{
+    display: flex;
+    padding: 10px;
+    margin-top: -25px;
+    margin-left: 132px;
+    position: absolute;
+    
+}
+
+.lemb2{
+    font-size: small;
+    color: white;
+    padding: 3px;
+}
+h2{
+    color: white;
+    font-size: small;
+    display: flex;
+    margin-left:116px;
+    margin-top: -0px;
+}
+
+.otherlogins{
+    display: flex;
+}
+
+.gmail{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.gmail :hover{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.288);
+    cursor: pointer;
+}
+.facebook{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.facebook :hover{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.288);
+    cursor: pointer;
+}
+.hr1{
+    margin-top: 10px;
+    width: 100px;
+    margin-right: 150px;
+    display: flex;
+    position: absolute;
+    float: left;
+}
+.hr2{
+    margin-top: 10px;
+    display: flex;
+    float: right;
+    width: 100px;
+}
