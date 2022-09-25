@@ -12,5 +12,5 @@ Imagem de exemplo:
 <br>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/87623017/192065819-bf7fd2e6-9313-462b-ad1a-79feac1757db.png" width="1000px" /
+<img src="https://user-images.githubusercontent.com/87623017/192151130-04d82b29-3e93-4d27-aeda-f02613df9728.png" width="600px" /
 </div>
